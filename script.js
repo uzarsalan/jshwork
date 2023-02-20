@@ -46,4 +46,15 @@ console.log(values);
 let entries2 = Object.entries(buuzas);
 console.log(entries);
 
+let menu = [kebab, plov, buuzas];
+console.log(menu);
+menu.shift('kebab');
+alert(menu[0]);
+console.log(menu);
+menu.unshift('kebab');
+alert(menu[0]);
+console.log(menu);
+
+
+
 
