@@ -1,59 +1,78 @@
-const kebab = {
-    name: "kebab",
-    receipt: "chiken, vegetables, sauce",
-    inprice: 50,
-    price: 150,
-};
-console.log(kebab);
-let keys = Object.keys(kebab);
-console.log(keys);
+let dish = [
+    {
+        buuza: 'buuza', 
+        price: 70, 
+        expense: 25, 
+        ingridients: ['meat', 'water', 'dough', 'onion',],
+        },
+        
+    { 
+        plov: 'plov', 
+        price: 100, 
+        expense: 40, 
+        ingridients: ['meat', 'rice', 'vegatables',],},
 
-let values = Object.values(kebab);
-console.log(values);
+    { 
+        kebab: 'kebab', 
+        price: 150, 
+        expense: 60, 
+        ingridients: ['chekin', 'vegetables','chees'],},
+];
 
-let entries = Object.entries(kebab);
-console.log(entries);
+let copy = dish[0];
+console.log(dish);
 
-const plov ={
-    name1: "plov",
-    receipt1: "meat, rice, vegetables",
-    inprice1: 80,
-    price1: 240,
-};
-console.log(plov);
-let keys1 = Object.keys(plov);
-console.log(keys);
+dish.shift();
+dish.unshift(copy);
+console.log(copy);
+console.log(typeof copy);
+console.log(copy.ingridients);
+copy.ingridients.splice(3);
+console.log(copy.ingridients);
 
-let values1 = Object.values(plov);
-console.log(values);
+//console.log(dish);
+//console.log(dish[0].price);
+//console.log(dish[0].expense);
+sum = dish[0].price - dish[0].expense;
+console.log(sum);
 
-let entries1 = Object.entries(plov);
-console.log(entries);
+//console.log(dish[1].price);
+//console.log(dish[1].expense);
+sum = dish[1].price - dish[1].expense;
+console.log(sum);
 
-const buuzas = {
-    name2: "buuzas",
-    receipt2: "meat, dough",
-    inprice2: 25,
-    price2:60,
-};
-console.log(buuzas);
-let keys2 = Object.keys(buuzas);
-console.log(keys);
+//console.log(dish[2].price);
+//console.log(dish[2].expense);
+sum = dish[2].price - dish[2].expense;
 
-let values2 = Object.values(buuzas);
-console.log(values);
+console.log(sum);
 
-let entries2 = Object.entries(buuzas);
-console.log(entries);
+dish.splice(1);
 
-let menu = [kebab, plov, buuzas];
-console.log(menu);
-menu.shift('kebab');
-alert(menu[0]);
-console.log(menu);
-menu.unshift('kebab');
-alert(menu[0]);
-console.log(menu);
+alert(JSON.stringify(copy));
+
+//let num;
+//num = 3 + 3;
+//console.log(num);
+//let a = price;
+//let b = expense;
+//console.log(a - b);
+//copy[0] = 'poza';
+//console.log(copy);
+
+
+//consol.log(dish[0].ingridients);
+
+//const price = [0,1,2]
+
+//console.log(ingridients);
+
+
+//const price = [70, 100, 150];
+//const price2 = [30, 40, 60];
+//const sum = price.reduce((total, amount) => total + amount ) - price2.reduce((total, amount) => total + amount);
+//console.log(sum)
+
 
 
 
