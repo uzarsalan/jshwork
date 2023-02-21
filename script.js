@@ -72,8 +72,28 @@ alert(JSON.stringify(copy));
 //const price2 = [30, 40, 60];
 //const sum = price.reduce((total, amount) => total + amount ) - price2.reduce((total, amount) => total + amount);
 //console.log(sum)
+let age = prompt('What is your age?');
+if (age >= 20) {
+	alert('You can smoke sigarets');
+} else if (age < 18) {
+	alert('You can smoke sigarets in few years');
+} else {
+	alert('You can\'t drink alcohol');
+};
 
-
-
-
+let qviz = prompt('what is the height of the tallest person?');
+if (height >= 2.7) 
+{
+	alert('right');
+} else (height <= 2/7)
+	{alert('wrong');
+};
+ let qviz2 = prompt('what year did the war start?')
+ if(data >= 1942) 
+ {
+    alert('right');
+}
+ else (data <=1941) 
+     {alert('wrong')
+};
 
