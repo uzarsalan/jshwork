@@ -82,11 +82,11 @@ if (age >= 20) {
 };
 
 let qviz = prompt('what is the height of the tallest person?');
-if (height >= 2.7) 
+if (metr >= 2.7) 
 {
 	alert('right');
 } 
- else (height2 <= 2.6)
+ else (metr2 <= 2.6)
 {
    alert('wrong');
    
