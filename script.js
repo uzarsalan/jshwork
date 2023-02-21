@@ -86,18 +86,21 @@ if (height >= 2.7)
 {
 	alert('right');
 } 
- else (height <= 2.6)
+ else (height2 <= 2.6)
 {
    alert('wrong');
+   
 };
+
+console.log(height);
 
  let qviz2 = prompt('what year did the war start?')
  if(date >= 1942) 
  {
    alert('right');
 }
- else (data <=1941) 
+ else (date2 <=1941) 
 {
    alert('wrong')
 };
-
+console.log(date);
