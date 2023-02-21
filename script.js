@@ -85,11 +85,12 @@ let qviz = prompt('what is the height of the tallest person?');
 if (height >= 2.7) 
 {
 	alert('right');
-} else (height <= 2/7)
+} 
+ else (height <= 2.6)
 	{alert('wrong');
 };
  let qviz2 = prompt('what year did the war start?')
- if(data >= 1942) 
+ if(date >= 1942) 
  {
     alert('right');
 }
