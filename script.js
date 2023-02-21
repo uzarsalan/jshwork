@@ -78,7 +78,7 @@ if (age >= 20) {
 } else if (age < 18) {
 	alert('You can smoke sigarets in few years');
 } else {
-	alert('You can\'t drink alcohol');
+	alert('You can\'t smoke sigarets');
 };
 
 let qviz = prompt('what is the height of the tallest person?');
@@ -87,14 +87,17 @@ if (height >= 2.7)
 	alert('right');
 } 
  else (height <= 2.6)
-	{alert('wrong');
+{
+   alert('wrong');
 };
+
  let qviz2 = prompt('what year did the war start?')
  if(date >= 1942) 
  {
-    alert('right');
+   alert('right');
 }
  else (data <=1941) 
-     {alert('wrong')
+{
+   alert('wrong')
 };
 
