@@ -81,26 +81,24 @@ if (age >= 20) {
 	alert('You can\'t smoke sigarets');
 };
 
-let qviz = prompt('what is the height of the tallest person?');
+let metr = prompt('what is the height of the tallest person?');
 if (metr >= 2.7) 
 {
 	alert('right');
 } 
- else (metr2 <= 2.6)
+ else (metr <= 2.6)
 {
    alert('wrong');
    
 };
 
-console.log(height);
-
- let qviz2 = prompt('what year did the war start?')
+let date = prompt('what year did the war start?')
  if(date >= 1942) 
  {
    alert('right');
 }
- else (date2 <=1941) 
+ else (date <=1941) 
 {
    alert('wrong')
 };
-console.log(date);
+
