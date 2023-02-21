@@ -86,7 +86,7 @@ if (metr >= 2.7)
 {
 	alert('right');
 } 
- else (metr <= 2.6)
+ else if (metr <= 2.6)
 {
    alert('wrong');
    
@@ -97,7 +97,7 @@ let date = prompt('what year did the war start?')
  {
    alert('right');
 }
- else (date <=1941) 
+ else if (date <=1941) 
 {
    alert('wrong')
 };
